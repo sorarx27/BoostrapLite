@@ -26,6 +26,8 @@ xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="android-build-tool" value="gradle" /> 
     <plugin name="cordova-plugin-admobpro" source="npm" ><variable name="ADMOB_APP_ID" value="ca-app-pub-YOUR_ADMOB_ID" /></plugin>
     <preference name="android-build-tool" value="gradle" />
-    <preference name="phonegap-version" value="cli-8.0.0" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+    <plugin name="cordova-android-support-gradle-release" source="npm">
+    <variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
     <icon src="icon144.png" />
 </widget>
